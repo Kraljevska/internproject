@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Frontend challenge</title>
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://embedsocial.com/cdn/fonts/roboto/stylesheet.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<div class="first-container">
+		<div class="sidebar">
+			<div class="accordion">
+				<h4 class="accordion-title">
+					Settings panel
+				</h4>
+			</div>
+			<div class="settings">
+				<label class="label">
+					Number of columns
+				</label>
+				<select id="numberOfColumns" class="form-control">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="dynamic" selected>dynamic</option>
+				</select>
+
+				<label class="label">
+					Card background color
+				</label>
+				<input id="cardBackgroundColor" class="form-control" type="text" value="#ffffff" />
+
+				<label class="label">
+					Cards space between
+				</label>
+				<input id="cardSpaceBetween" class="form-control" type="text" value="10px" />
+
+				<label class="label">
+					Choose theme
+				</label>
+				<div class="radio-group">
+					<div class="radio-select">
+						<input id="lightTheme" type="radio" name="theme" value="lightTheme" checked>
+						<label for="lightTheme">Light</label>
+					</div>
+
+					<div class="radio-select">
+						<input id="darkTheme" type="radio" name="theme" value="darkTheme">
+						<label for="darkTheme">Dark</label>
+					</div>
+				</div>
+
+				<label class="label">
+					Filter by source
+				</label>
+				<div class="radio-group">
+					<div class="radio-select">
+						<input id="all" type="radio" name="filterBySource" value="all" checked>
+						<label for="all">All</label>
+					</div>
+
+					<div class="radio-select">
+						<input id="instagram" type="radio" name="filterBySource" value="instagram">
+						<label for="instagram">Instagram</label>
+					</div>
+
+					<div class="radio-select">
+						<input id="facebook" type="radio" name="filterBySource" value="facebook">
+						<label for="facebook">Facebook</label>
+					</div>
+
+					<div class="radio-select">
+						<input id="twitter" type="radio" name="filterBySource" value="twitter">
+						<label for="twitter">Twitter</label>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- Layout html here -->
+
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img1 (2).jpg" alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img2.jpg " alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img3.jpg" alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img4 (2).jpg" alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img5.jpg" alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img6.jpg" alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img7.jpg" alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="wraper">
+				<div class="user">
+					<p width="50px;" height="50px;">
+						Livia Baptista
+					</p>
+					<p class="date">
+						15 Oct 2019
+					</p>
+				</div>
+				<img class="instagram-logo" src="../icons/instagram-logo.svg" alt="">
+				<img src="images/img8.jpg" alt="">
+				<p class="description">#Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Proin augue est, viverra in sem et, luctus tempor elit. Donec auctor accumsan urna sed gravida.</p>
+				<img class="heart-icon" src="/icons/heart.svg">
+				<span class="likes">1080</span>
+			</div>
+			<div class="btncontainer">
+				<button class="btn">LOAD MORE</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		var wraper = document.
+		querySelectorAll('.wraper');
+		var btn = document.querySelector
+		('btn');
+		  var currentimg = 2
+		  btn.addEventListener('click',function(){
+			for(var i = currentimg;i<currentimg+2;i++){
+				if(wraper[i]){
+					wraper[i].style.display = 'block';
+				}
+			}
+
+			currentimg+=2;
+			if(currentimg<=wraper.length){
+				event.target.style.display='none';
+			}
+		  })
+	</script>
+	<script src="index.js"></script>
+</body>
+
+</html>
